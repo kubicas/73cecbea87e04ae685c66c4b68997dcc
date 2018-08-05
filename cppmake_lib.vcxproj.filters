@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\stb">
+      <UniqueIdentifier>{6cefdc65-a470-4b64-a0c2-0688bb47dc7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bytestream">
+      <UniqueIdentifier>{824131b1-1820-4876-b066-80269ecb4cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exception">
+      <UniqueIdentifier>{824685bf-663a-4600-95de-793b0749d67e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="executor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ide_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="policy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stub_to_be_removed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="depgraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="makeables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="policy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process_exe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="depgraph_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="depgraph_exe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ide_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="makeables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\cppmake\makefile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\exception\exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\stb\filesystem.h">
+      <Filter>Header Files\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\stb\fstream.h">
+      <Filter>Header Files\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\stb\future.h">
+      <Filter>Header Files\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\stb\thread.h">
+      <Filter>Header Files\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\bytestream\bytestream.h">
+      <Filter>Header Files\bytestream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\bytestream\filesystem_path.h">
+      <Filter>Header Files\bytestream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\bytestream\set.h">
+      <Filter>Header Files\bytestream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\bytestream\string.h">
+      <Filter>Header Files\bytestream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\bytestream\unique_ptr.h">
+      <Filter>Header Files\bytestream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\bytestream\vector.h">
+      <Filter>Header Files\bytestream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intf\cppmake\executor.h">
+      <Filter>Header Files\exception</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
